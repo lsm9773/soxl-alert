@@ -1,3 +1,17 @@
+print("START")
+
+df = yf.download(
+    "SOXL",
+    interval="60m",
+    period="90d",
+    auto_adjust=True,
+    progress=False
+)
+
+print(df.tail())
+
+print("DATA OK")
+
 import os
 import json
 import requests
