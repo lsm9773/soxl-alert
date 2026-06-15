@@ -176,3 +176,4 @@ if state["cloud_break"] and ma_cross_up:
 # ==========================
 
 save_state(state)
+send_message("SOXL BOT 실행 성공")
